@@ -5,16 +5,16 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Mighty 80s</title>
-<link>https://your-website-url.example.com/</link>
-<atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
+<title>Mighty 80</title>
+<link>https://daegudk.github.io/mighty/</link>
+<atom:link href="https://daegudk.github.io/mighty/index.xml" rel="self" type="application/rss+xml"/>
 <description>Memories of 1980s</description>
 <generator>quarto-1.8.25</generator>
 <lastBuildDate>Thu, 19 Nov 2026 07:00:00 GMT</lastBuildDate>
 <item>
   <title>이문세</title>
   <dc:creator>DK </dc:creator>
-  <link>https://your-website-url.example.com/posts/20261119 Korean Music/</link>
+  <link>https://daegudk.github.io/mighty/posts/20261119 Korean Music/</link>
   <description><![CDATA[ 
 
 
@@ -23,19 +23,84 @@
 
 <p>Korean music in the 1980s was different.</p>
 <p>[link](<a href="https://www.youtube.com/watch?v=YlOsw9ZryQI&amp;list=RDYlOsw9ZryQI&amp;start_radio=1" class="uri">https://www.youtube.com/watch?v=YlOsw9ZryQI&amp;list=RDYlOsw9ZryQI&amp;start_radio=1</a>)</p>
+<p>Korean music in the 1980s changed because the country itself was changing fast. It was a decade of military rule under Chun Doo-hwan, strict censorship, a booming economy, the arrival of color TV in 1980, and finally democratization in 1987 and the Seoul Olympics in 1988. Music sat right in the middle of that tension, and the decade laid the groundwork for modern Korean pop.</p>
+<section id="key-characteristics" class="level2">
+<h2 class="anchored" data-anchor-id="key-characteristics">Key characteristics</h2>
+<ul>
+<li></li>
+<li><p><strong>Trot gave way to the ballad.</strong> The older trot style (influenced by Japanese enka) was still popular, but the sound of the decade became the Western-influenced pop ballad, with emotional vocals, piano and strings, and lyrics about love and longing.</p></li>
+<li></li>
+<li><p><strong>Television made stars.</strong> Color broadcasting turned music shows into the main route to fame, so looks, stage presence and choreography started to matter alongside the voice.</p></li>
+<li></li>
+<li><p><strong>Censorship shaped everything.</strong> Songs were screened by government review and many were banned for being “decadent,” too foreign, or politically suggestive. Albums were also expected to include a state-approved “healthy song” (건전가요), often a patriotic or moralistic track tacked on at the end.</p></li>
+<li></li>
+<li><p><strong>University song festivals launched careers.</strong> Contests like the MBC College Song Festival and Riverside Song Festival brought young singer-songwriters to a national audience.</p></li>
+<li></li>
+<li><p><strong>A split between mainstream and underground.</strong> Alongside TV pop, a protest-song movement (민중가요) spread through campuses during the democracy struggle, while folk and rock artists built followings through concerts rather than broadcasts.</p></li>
+<li></li>
+<li><p><strong>Rock and dance arrived.</strong> Heavy metal bands and the first dance-pop acts appeared in the second half of the decade, foreshadowing the idol era of the 1990s.</p></li>
+<li></li>
+</ul>
+</section>
+<section id="artists-who-defined-it" class="level2">
+<h2 class="anchored" data-anchor-id="artists-who-defined-it">Artists who defined it</h2>
+<p><strong>Mainstream pioneers</strong></p>
+<ul>
+<li></li>
+<li><p><strong>Cho Yong-pil</strong>: the dominant star of the era, nicknamed the “King of Singers.” He moved freely between trot, rock, ballad and folk and showed that one artist could fill stadiums.</p></li>
+<li></li>
+<li><p><strong>Lee Sun-hee</strong>: won the 1984 Riverside Song Festival with “To J” (J에게) and became the decade’s defining female voice.</p></li>
+<li></li>
+<li><p><strong>Lee Moon-sae</strong>: with composer Lee Young-hoon, he built the sophisticated, orchestrated ballad sound in songs like “When Love Passes By” (사랑이 지나가면).</p></li>
+<li></li>
+<li><p><strong>Byun Jin-sub</strong>: debuted in 1988 and became the “Prince of Ballads” heading into the 1990s.</p></li>
+<li></li>
+</ul>
+<p><strong>Singer-songwriters and the new sound</strong></p>
+<ul>
+<li></li>
+<li><p><strong>Yoo Jae-ha</strong>: released one album in 1987 before dying in a car accident that year. Its jazz- and classical-influenced arrangements made it one of the most influential Korean albums ever.</p></li>
+<li></li>
+<li><p><strong>Deulgukhwa</strong>: their 1985 debut blended rock, folk and blues and is often ranked the greatest Korean album.</p></li>
+<li></li>
+<li><p><strong>Kim Hyun-sik</strong>: a soulful singer-songwriter associated with the same circle.</p></li>
+<li></li>
+</ul>
+<p><strong>Rock</strong></p>
+<ul>
+<li></li>
+<li><p><strong>Sinawe</strong> and <strong>Boohwal</strong>: both debuted in 1986 and established Korean hard rock and heavy metal. Sinawe was also a launching pad for later stars.</p></li>
+<li></li>
+</ul>
+<p><strong>Dance-pop</strong></p>
+<ul>
+<li></li>
+<li><p><strong>Kim Wan-sun</strong>: debuted in 1986 with choreographed performances and a styled image, earning the nickname “Korea’s Madonna.”</p></li>
+<li></li>
+<li><p><strong>Sobangcha</strong>: a 1987 male dance trio often seen as an early forerunner of boy groups.</p></li>
+<li></li>
+</ul>
+<p><strong>Protest and folk</strong></p>
+<ul>
+<li></li>
+<li><p><strong>Noraereul Chatneun Saramdeul</strong> (People Seeking Songs): the best-known group of the protest-song movement, later joined by <strong>Kim Kwang-seok</strong>, who became one of Korea’s most beloved folk singers.</p></li>
+<li></li>
+</ul>
+<p>The common thread: by 1990, Korean music had moved from state-controlled, trot-dominated broadcasting toward a self-written, Western-influenced, visually driven pop industry, which is the foundation Seo Taiji and Boys and the K-pop idol system built on in the 1990s.</p>
 
 
+</section>
 
  ]]></description>
   <category>음악</category>
-  <guid>https://your-website-url.example.com/posts/20261119 Korean Music/</guid>
+  <guid>https://daegudk.github.io/mighty/posts/20261119 Korean Music/</guid>
   <pubDate>Thu, 19 Nov 2026 07:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/posts/20261119 Korean Music/image.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://daegudk.github.io/mighty/posts/20261119 Korean Music/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Welcome To My Blog</title>
   <dc:creator>DK </dc:creator>
-  <link>https://your-website-url.example.com/posts/welcome/</link>
+  <link>https://daegudk.github.io/mighty/posts/welcome/</link>
   <description><![CDATA[ 
 
 
@@ -51,7 +116,7 @@
 
  ]]></description>
   <category>intro</category>
-  <guid>https://your-website-url.example.com/posts/welcome/</guid>
+  <guid>https://daegudk.github.io/mighty/posts/welcome/</guid>
   <pubDate>Thu, 19 Nov 2026 07:00:00 GMT</pubDate>
 </item>
 </channel>

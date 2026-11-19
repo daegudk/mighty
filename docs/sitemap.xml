@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://your-website-url.example.com/about.html</loc>
+    <loc>https://daegudk.github.io/mighty/about.html</loc>
     <lastmod>2026-11-19T20:40:32.973Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/posts/welcome/index.html</loc>
+    <loc>https://daegudk.github.io/mighty/posts/welcome/index.html</loc>
     <lastmod>2026-11-19T20:49:54.851Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/posts/20261119 Korean Music/index.html</loc>
-    <lastmod>2026-11-19T20:51:45.156Z</lastmod>
+    <loc>https://daegudk.github.io/mighty/posts/20261119 Korean Music/index.html</loc>
+    <lastmod>2026-11-19T21:02:51.375Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/index.html</loc>
+    <loc>https://daegudk.github.io/mighty/index.html</loc>
     <lastmod>2026-11-19T20:56:23.736Z</lastmod>
   </url>
 </urlset>

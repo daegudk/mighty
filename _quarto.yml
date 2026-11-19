@@ -4,8 +4,8 @@ project:
 
 website:
   description: "Memories of 1980s"
-  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
-  title: "Mighty 80s"
+  site-url: https://daegudk.github.io/mighty/ # you must change this appropriately for RSS feeds to work properly
+  title: "Mighty 80"
   navbar:
     right:
       - about.qmd
