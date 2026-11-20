@@ -2,14 +2,17 @@
 title: "Amadeus"
 author: "DK"
 date: "2026-11-20"
+execute:
+  echo: false
+  warning: false
 categories: [음악]
 ---
 
-I was almost twenty-two when *Amadeus* came out.
+I was almost twenty-two when the movie *Amadeus* was released.
 
 Up until then, my understanding of classical music was limited—mostly just the well-known composers and their most famous pieces. The movie didn't just expose how little I knew; it showed the actual person behind the music, the tormented genius who wrote it.
 
-Late Baby Boomers saw Mozart as the original rock-and-roll rebel and early Gen Xers were drawn in by the film’s darker, psychological edge.
+Late Baby Boomers saw Mozart as the original rock-and-roll rebel and early Gen Xers were drawn in by the film’s darker, psychological edge.  According to an AI Summary.  
 
 Starting with the poster, the movie startled me. It featured a demonic figure wearing a half-moon mask, with an inset of the Queen of the Night insignia, signaling the dark and mysterious side of the story. I watched Salieri move from bitter competition to the eventual acceptance that Mozart’s gift wasn't merely human.
 
@@ -20,3 +23,145 @@ It cut right through and elevated the everyday scenes and struggles of a twenty-
 Later, I acquired a set of Mozart's late piano concertos, all on vinyl. Listening to them back then, it felt as though the challenges of my late teenage years and early-to-mid twenties—all the ups and downs—were captured by the master. Even through those trial years, I felt encouraged by a quiet serenity about the future that was present in those slower movements.
 
 Having returned from my missionary service in Los Angeles, I began to seek how I could contribute to society, starting by finally ceasing to be a menace to it—and getting married. I chose to stop fighting against the laws of nature and society, and instead align my life with them, much like how Salieri eventually had to accept the divine commission of Wolfgang Amadeus Mozart.
+
+```{r}
+library(tidyverse)
+library(lubridate)
+library(scales)
+```
+
+## 1. Historical data
+
+The following table lists Mozart's late piano concertos, their Köchel catalogue numbers, approximate completion dates, and his age at completion.
+
+```{r}
+mozart <- tibble(
+  concerto = 18:27,
+  kochel = c(456, 459, 466, 467, 482,
+             488, 491, 503, 537, 595),
+  key = c(
+    "B-flat major",
+    "F major",
+    "D minor",
+    "C major",
+    "E-flat major",
+    "A major",
+    "C minor",
+    "C major",
+    "D major",
+    "B-flat major"
+  ),
+  year = c(1784, 1784, 1785, 1785, 1785,
+           1786, 1786, 1786, 1788, 1791),
+  month = c(11, 12, 2, 3, 12, 3, 3, 12, 2, 3),
+  day = c(30, 11, 10, 9, 16, 2, 24, 4, 24, 5)
+)
+
+mozart_birth <- as.Date("1756-01-27")
+
+mozart <- mozart |>
+  mutate(
+    completion_date = make_date(year, month, day),
+    age_years = time_length(
+      interval(mozart_birth, completion_date), "years"
+    ),
+    age_label = paste0(
+      floor(age_years), " years, ",
+      round((age_years - floor(age_years)) * 12),
+      " months"
+    ),
+    concerto_label = paste0("No. ", concerto)
+  )
+
+mozart
+```
+
+## 2. Chronological graph
+
+```{r}
+
+ggplot(
+  mozart,
+  aes(
+    x = kochel,
+    y = age_years,
+    label = paste0("No. ", concerto, "\nK. ", kochel)
+  )
+) +
+  geom_point(
+    position = position_jitter(
+      width = 1.5,
+      height = 0.08,
+      seed = 123
+    ),
+    size = 3,
+    color = "darkred"
+  ) +
+  geom_text(
+    position = position_jitter(
+      width = 1.5,
+      height = 0.08,
+      seed = 123
+    ),
+    nudge_y = 0.18,
+    size = 3,
+    check_overlap = TRUE
+  ) +
+  scale_x_continuous(
+    breaks = mozart$kochel,
+    labels = mozart$kochel
+  ) +
+  scale_y_continuous(
+    breaks = seq(28, 35, 1),
+    labels = function(x) paste(x, "years")
+  ) +
+  labs(
+    title = "Mozart's Late Piano Concertos (Nos. 18–27)",
+    subtitle = "Mozart's age at composition by Köchel catalogue number",
+    x = "Köchel catalogue number",
+    y = "Mozart's age",
+    caption = "Jitter applied to improve label visibility."
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    plot.title = element_text(face = "bold")
+  )
+
+```
+
+## 3. Concertos and catalogue information
+
+```{r}
+mozart |>
+  select(
+    concerto,
+    kochel,
+    key,
+    completion_date,
+    age_label
+  ) |>
+  knitr::kable(
+    col.names = c(
+      "Concerto",
+      "Köchel",
+      "Key",
+      "Completion date",
+      "Mozart's age"
+    ),
+    caption = "Mozart Piano Concertos Nos. 18–27"
+  )
+```
+
+## 4. Observations
+
+-   Mozart composed Concertos Nos. 18–19 at age 28.
+-   Concertos Nos. 20–25 were completed during 1785–1786, a particularly productive period.
+-   Concerto No. 20 (K. 466) is in D minor.
+-   Concerto No. 23 (K. 488) is in A major.
+-   Concerto No. 27 (K. 595) was his final piano concerto, completed in 1791.
+
+## 5. Sources
+
+-   Neue Mozart-Ausgabe (New Mozart Edition)
+-   Köchel catalogue of Mozart's works
+-   Mozart's correspondence and historical chronology

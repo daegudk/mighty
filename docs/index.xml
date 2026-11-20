@@ -21,16 +21,159 @@
 
 
 
-<p>I was almost twenty-two when <em>Amadeus</em> came out.</p>
+<p>I was almost twenty-two when the movie <em>Amadeus</em> was released.</p>
 <p>Up until then, my understanding of classical music was limited—mostly just the well-known composers and their most famous pieces. The movie didn’t just expose how little I knew; it showed the actual person behind the music, the tormented genius who wrote it.</p>
-<p>Late Baby Boomers saw Mozart as the original rock-and-roll rebel and early Gen Xers were drawn in by the film’s darker, psychological edge.</p>
+<p>Late Baby Boomers saw Mozart as the original rock-and-roll rebel and early Gen Xers were drawn in by the film’s darker, psychological edge. According to an AI Summary.</p>
 <p>Starting with the poster, the movie startled me. It featured a demonic figure wearing a half-moon mask, with an inset of the Queen of the Night insignia, signaling the dark and mysterious side of the story. I watched Salieri move from bitter competition to the eventual acceptance that Mozart’s gift wasn’t merely human.</p>
 <p>Then, as the movie ended and transitioned into the credits, the second movement of Piano Concerto No.&nbsp;20 in D minor—Köchel catalogue 466—began to play.</p>
 <p>It cut right through and elevated the everyday scenes and struggles of a twenty-something. Sitting there, it felt like I was being introduced to another world.</p>
 <p>Later, I acquired a set of Mozart’s late piano concertos, all on vinyl. Listening to them back then, it felt as though the challenges of my late teenage years and early-to-mid twenties—all the ups and downs—were captured by the master. Even through those trial years, I felt encouraged by a quiet serenity about the future that was present in those slower movements.</p>
 <p>Having returned from my missionary service in Los Angeles, I began to seek how I could contribute to society, starting by finally ceasing to be a menace to it—and getting married. I chose to stop fighting against the laws of nature and society, and instead align my life with them, much like how Salieri eventually had to accept the divine commission of Wolfgang Amadeus Mozart.</p>
+<section id="historical-data" class="level2">
+<h2 class="anchored" data-anchor-id="historical-data">1. Historical data</h2>
+<p>The following table lists Mozart’s late piano concertos, their Köchel catalogue numbers, approximate completion dates, and his age at completion.</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 10 × 10
+   concerto kochel key      year month   day completion_date age_years age_label
+      &lt;int&gt;  &lt;dbl&gt; &lt;chr&gt;   &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;date&gt;              &lt;dbl&gt; &lt;chr&gt;    
+ 1       18    456 B-flat…  1784    11    30 1784-11-30           28.8 28 years…
+ 2       19    459 F major  1784    12    11 1784-12-11           28.9 28 years…
+ 3       20    466 D minor  1785     2    10 1785-02-10           29.0 29 years…
+ 4       21    467 C major  1785     3     9 1785-03-09           29.1 29 years…
+ 5       22    482 E-flat…  1785    12    16 1785-12-16           29.9 29 years…
+ 6       23    488 A major  1786     3     2 1786-03-02           30.1 30 years…
+ 7       24    491 C minor  1786     3    24 1786-03-24           30.2 30 years…
+ 8       25    503 C major  1786    12     4 1786-12-04           30.9 30 years…
+ 9       26    537 D major  1788     2    24 1788-02-24           32.1 32 years…
+10       27    595 B-flat…  1791     3     5 1791-03-05           35.1 35 years…
+# ℹ 1 more variable: concerto_label &lt;chr&gt;</code></pre>
+</div>
+</div>
+</section>
+<section id="chronological-graph" class="level2">
+<h2 class="anchored" data-anchor-id="chronological-graph">2. Chronological graph</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://daegudk.github.io/mighty/posts/20261120 Amadeus/index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="concertos-and-catalogue-information" class="level2">
+<h2 class="anchored" data-anchor-id="concertos-and-catalogue-information">3. Concertos and catalogue information</h2>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Mozart Piano Concertos Nos. 18–27</caption>
+<thead>
+<tr class="header">
+<th style="text-align: right;">Concerto</th>
+<th style="text-align: right;">Köchel</th>
+<th style="text-align: left;">Key</th>
+<th style="text-align: left;">Completion date</th>
+<th style="text-align: left;">Mozart’s age</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">456</td>
+<td style="text-align: left;">B-flat major</td>
+<td style="text-align: left;">1784-11-30</td>
+<td style="text-align: left;">28 years, 10 months</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">459</td>
+<td style="text-align: left;">F major</td>
+<td style="text-align: left;">1784-12-11</td>
+<td style="text-align: left;">28 years, 10 months</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">466</td>
+<td style="text-align: left;">D minor</td>
+<td style="text-align: left;">1785-02-10</td>
+<td style="text-align: left;">29 years, 0 months</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">467</td>
+<td style="text-align: left;">C major</td>
+<td style="text-align: left;">1785-03-09</td>
+<td style="text-align: left;">29 years, 1 months</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">482</td>
+<td style="text-align: left;">E-flat major</td>
+<td style="text-align: left;">1785-12-16</td>
+<td style="text-align: left;">29 years, 11 months</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">488</td>
+<td style="text-align: left;">A major</td>
+<td style="text-align: left;">1786-03-02</td>
+<td style="text-align: left;">30 years, 1 months</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">491</td>
+<td style="text-align: left;">C minor</td>
+<td style="text-align: left;">1786-03-24</td>
+<td style="text-align: left;">30 years, 2 months</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">503</td>
+<td style="text-align: left;">C major</td>
+<td style="text-align: left;">1786-12-04</td>
+<td style="text-align: left;">30 years, 10 months</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">537</td>
+<td style="text-align: left;">D major</td>
+<td style="text-align: left;">1788-02-24</td>
+<td style="text-align: left;">32 years, 1 months</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">595</td>
+<td style="text-align: left;">B-flat major</td>
+<td style="text-align: left;">1791-03-05</td>
+<td style="text-align: left;">35 years, 1 months</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="observations" class="level2">
+<h2 class="anchored" data-anchor-id="observations">4. Observations</h2>
+<ul>
+<li>Mozart composed Concertos Nos. 18–19 at age 28.</li>
+<li>Concertos Nos. 20–25 were completed during 1785–1786, a particularly productive period.</li>
+<li>Concerto No.&nbsp;20 (K. 466) is in D minor.</li>
+<li>Concerto No.&nbsp;23 (K. 488) is in A major.</li>
+<li>Concerto No.&nbsp;27 (K. 595) was his final piano concerto, completed in 1791.</li>
+</ul>
+</section>
+<section id="sources" class="level2">
+<h2 class="anchored" data-anchor-id="sources">5. Sources</h2>
+<ul>
+<li>Neue Mozart-Ausgabe (New Mozart Edition)</li>
+<li>Köchel catalogue of Mozart’s works</li>
+<li>Mozart’s correspondence and historical chronology</li>
+</ul>
 
 
+</section>
 
  ]]></description>
   <category>음악</category>
@@ -159,6 +302,52 @@
   <category>정치</category>
   <guid>https://daegudk.github.io/mighty/posts/20261117 Less Connected/</guid>
   <pubDate>Wed, 18 Nov 2026 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Life’s Struggle</title>
+  <dc:creator>DK </dc:creator>
+  <link>https://daegudk.github.io/mighty/posts/20261116 Less Struggle/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>LA에서 선교사로 일할 때, 뉴욕에서 얼마 전에 이사 온 한 교우분이 우리에게 어떤 예술가 한 분을 소개해 주셨다.</p>
+<p>그분은 전통 한국 꽃 그림을 수채화로 현대적으로 재해석해 그리는 화가였다.</p>
+<p>그녀는 우리를 아파트에 정중하게 맞아주었고 우리의 메시지도 귀 기울여 들었다. 그러다 서로를 좀 더 알게 되었을 때, 그녀는 아주 솔직한 생각을 털어놓았다. 집에 아이가 둘이나 있지만, 차라리 이 세상에 태어나게 한 것이 후회된다는 것이었다. 세상이 너무 각박해서 아이들이 앞으로 헤쳐나가기 힘들 것 같다는 이유였다.</p>
+<p>비록 세상 물정을 잘 모르는 젊은 나이였지만, 나는 그 말이 틀렸다고 느꼈다.</p>
+<p>오늘날 그 두 자녀는 아마 40대 중후반쯤 되었을 것이다. 기회가 된다면 그들을 직접 만나, 과연 그 험난하다는 세상을 어떻게 겪고 헤쳐나왔는지 이야기를 들어보고 싶다.</p>
+<p>요즘 한국의 젊은 세대가 아이를 낳지 않기로 결택하는 여러 가지 이유를 들을 때마다 그 기억이 떠오른다.</p>
+<p>물론 경제적, 사회적 측면에서 타당한 설명들도 많다. 하지만 그들의 결정에 유독 큰 비중을 차지하는 요인이 하나 있어 보인다. 바로 너무나도 많은 정보, 그리고 온갖 가짜 뉴스다.</p>
+<p>나와 자매 K가 인생의 중대한 결정들을 내려야 했던 시기에, 우리는 세상의 방대한 의견들에 휩쓸리지 않았다. 대신 우리의 확신, 개인적인 경험, 부모님의 본보기, 그리고 신앙 공동체의 가르침에 의지했다.</p>
+<p>중요한 것은, 우리에게 전 세계의 수많은 의견이 끊임없이 쏟아지지 않았다는 점이다.</p>
+<p>그 덕분에 우리는 우리의 실제 사정도 모른 채, 앞으로 세상이 어떻게 될지도 모르는 외부의 목소리들에 흔들리지 않고 독자적인 결정을 내릴 수 있었다.</p>
+<p>게다가, 어떤 특정한 삶의 방식을 주장하는 사람들은 부모가 내리는 돌이킬 수 없는 선택에 대해 그 어떤 책임도 져주지 않는다.</p>
+<p>지혜는 그 시대를 지배하는 당장의 논리 속에서 발견되지 않는다. 오히려 명확한 방향이나 해답이 보이지 않는 상황에서도 우리 자신에 대한 믿음과 과거 세대들이 남긴 교훈에 의지해 한 걸음 나아갈 때 비로소 얻어진다.</p>
+<p>아무런 책임도 지지 않을 외부 논평가들의 목소리를 꺼둘 때, 비로소 나와 내 가족에게 진정으로 중요한 것이 무엇인지 듣고 확신할 여유가 생기며, 새로운 생명을 맞이할 만큼 미래가 여전히 가치 있다는 믿음을 가질 수 있게 된다.</p>
+<hr>
+<p><img src="https://daegudk.github.io/mighty/posts/20261116 Less Struggle/images/20261117_170017.jpg" class="img-fluid"></p>
+<p>During my missionary service in Los Angeles, a church member who had recently moved from New York City introduced us to an artist.</p>
+<p>Ms.&nbsp;C painted modern versions of traditional Korean flower art in watercolor.</p>
+<p>She politely welcomed us into her apartment and listened to our message. Once we got to know her a little better, she shared a personal view: although she had two children at home, she regretted bringing them into the world. She felt the world was too harsh and that they would have a hard time navigating it.</p>
+<p>Even as a young person with very little real-world experience, I felt her statement was wrong.</p>
+<p>Today, those two children would be in their mid-to-late forties, and I would like to meet them to hear how they actually experienced growing up and navigating that difficult world.</p>
+<p>That memory resurfaces whenever I hear the various reasons why younger generations in Korea today are choosing not to have children.</p>
+<p>While there are reasonable economic and social explanations, one factor seems to carry an oversized weight in their decision: an overabundance of information—and misinformation.</p>
+<p>When Sister K and I reached the stage of making those life-defining decisions, we relied on our own convictions, our personal experiences, the example of our parents, and the teachings of our religious community.</p>
+<p>Crucially, we did not have constant access to a flood of worldwide opinions.</p>
+<p>That allowed us to make an independent choice—free from outside voices that knew nothing of our actual circumstances, and even less about what the future world would be like.</p>
+<p>Furthermore, those who advocate a certain way of living will never be held responsible for the unalterable choices that prospective parents make.</p>
+<p>Wisdom isn’t found in the prevailing logic of the day. It is found in moving forward despite a lack of clear direction or answers—relying instead on faith in ourselves and the lessons of past societies.</p>
+<p>By tuning out the commentators who have nothing at stake, you make room to hear and confirm what actually matters to you and your family, and to trust that the future is worth bringing a new child into.</p>
+
+
+
+ ]]></description>
+  <category>선택</category>
+  <guid>https://daegudk.github.io/mighty/posts/20261116 Less Struggle/</guid>
+  <pubDate>Mon, 16 Nov 2026 07:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Welcome To My Blog</title>
