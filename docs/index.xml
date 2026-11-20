@@ -10,9 +10,35 @@
 <atom:link href="https://daegudk.github.io/mighty/index.xml" rel="self" type="application/rss+xml"/>
 <description>Memories of 1980s</description>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Thu, 19 Nov 2026 07:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 20 Nov 2026 07:00:00 GMT</lastBuildDate>
 <item>
-  <title>이문세</title>
+  <title>Amadeus</title>
+  <dc:creator>DK </dc:creator>
+  <link>https://daegudk.github.io/mighty/posts/20261120 Amadeus/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I was almost twenty-two when <em>Amadeus</em> came out.</p>
+<p>Up until then, my understanding of classical music was limited—mostly just the well-known composers and their most famous pieces. The movie didn’t just expose how little I knew; it showed the actual person behind the music, the tormented genius who wrote it.</p>
+<p>Late Baby Boomers saw Mozart as the original rock-and-roll rebel and early Gen Xers were drawn in by the film’s darker, psychological edge.</p>
+<p>Starting with the poster, the movie startled me. It featured a demonic figure wearing a half-moon mask, with an inset of the Queen of the Night insignia, signaling the dark and mysterious side of the story. I watched Salieri move from bitter competition to the eventual acceptance that Mozart’s gift wasn’t merely human.</p>
+<p>Then, as the movie ended and transitioned into the credits, the second movement of Piano Concerto No.&nbsp;20 in D minor—Köchel catalogue 466—began to play.</p>
+<p>It cut right through and elevated the everyday scenes and struggles of a twenty-something. Sitting there, it felt like I was being introduced to another world.</p>
+<p>Later, I acquired a set of Mozart’s late piano concertos, all on vinyl. Listening to them back then, it felt as though the challenges of my late teenage years and early-to-mid twenties—all the ups and downs—were captured by the master. Even through those trial years, I felt encouraged by a quiet serenity about the future that was present in those slower movements.</p>
+<p>Having returned from my missionary service in Los Angeles, I began to seek how I could contribute to society, starting by finally ceasing to be a menace to it—and getting married. I chose to stop fighting against the laws of nature and society, and instead align my life with them, much like how Salieri eventually had to accept the divine commission of Wolfgang Amadeus Mozart.</p>
+
+
+
+ ]]></description>
+  <category>음악</category>
+  <guid>https://daegudk.github.io/mighty/posts/20261120 Amadeus/</guid>
+  <pubDate>Fri, 20 Nov 2026 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Korean Music Intro</title>
   <dc:creator>DK </dc:creator>
   <link>https://daegudk.github.io/mighty/posts/20261119 Korean Music/</link>
   <description><![CDATA[ 
@@ -95,7 +121,44 @@
   <category>음악</category>
   <guid>https://daegudk.github.io/mighty/posts/20261119 Korean Music/</guid>
   <pubDate>Thu, 19 Nov 2026 07:00:00 GMT</pubDate>
-  <media:content url="https://daegudk.github.io/mighty/posts/20261119 Korean Music/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Politics</title>
+  <dc:creator>DK </dc:creator>
+  <link>https://daegudk.github.io/mighty/posts/20261118 80s Politics/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Optimism and Germany Unification</p>
+
+
+
+ ]]></description>
+  <category>정치</category>
+  <guid>https://daegudk.github.io/mighty/posts/20261118 80s Politics/</guid>
+  <pubDate>Wed, 18 Nov 2026 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Politics</title>
+  <dc:creator>DK </dc:creator>
+  <link>https://daegudk.github.io/mighty/posts/20261117 Less Connected/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Optimism and Germany Unification</p>
+
+
+
+ ]]></description>
+  <category>정치</category>
+  <guid>https://daegudk.github.io/mighty/posts/20261117 Less Connected/</guid>
+  <pubDate>Wed, 18 Nov 2026 07:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Welcome To My Blog</title>
@@ -107,17 +170,18 @@
 
 
 
-<p>Turned 18 in 1980.</p>
-<p>1980s was the decade of optimism</p>
-<p>Anything was possible because we saw some ourselves</p>
-<p>Culture, History and some Music</p>
+<p>1980s was the decade of optimism.</p>
+<p>We dreamed and witnessed those dreams become a reality</p>
+<p>Anything seemed possible</p>
+<p>Culture and History reflected and archived events of the 80s perspective are remembered</p>
+<p>A look back at how we saw the world when we shaped and took part in the future.</p>
 
 
 
  ]]></description>
   <category>intro</category>
   <guid>https://daegudk.github.io/mighty/posts/welcome/</guid>
-  <pubDate>Thu, 19 Nov 2026 07:00:00 GMT</pubDate>
+  <pubDate>Sun, 01 Nov 2026 06:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

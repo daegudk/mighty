@@ -1,9 +1,8 @@
 ---
-title: "이문세"
+title: "Korean Music Intro"
 author: "DK"
 date: "2026-11-19"
 categories: [음악]
-image: "image.jpg"
 ---
 
 Korean music in the 1980s was different.
