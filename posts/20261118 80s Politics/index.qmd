@@ -2,6 +2,7 @@
 title: "Politics"
 author: "DK"
 date: "2026-11-18"
+draft: yes
 categories: [정치]
 ---
 
